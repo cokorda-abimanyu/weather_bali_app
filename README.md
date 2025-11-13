@@ -1,16 +1,25 @@
-# bali_weather_app
+# weather_bali_app 🌤
 
-A new Flutter project.
+Halo, saya Cok Gde Abimanyu Pradnyana Putra (2301010055) Mahasiswa Prodi Sistem Informasi dari Primakara University.
+Berikut ini adalah aplikasi prakiraan cuaca sederhana berbasis Flutter yang menampilkan informasi cuaca untuk Bali dan kota lain di seluruh dunia. Data diambil dari **OpenWeather API** dan ditampilkan dalam antarmuka gelap modern dengan kartu cuaca utama, panel prakiraan harian, dan timeline suhu per jam.
 
-## Getting Started
+## ✨ Fitur
 
-This project is a starting point for a Flutter application.
+- Cari cuaca berdasarkan **nama kota** (default: Denpasar)
+- Informasi cuaca saat ini:
+  - Suhu utama (°C)
+  - Deskripsi cuaca (rain, clear, cloudy, dll.)
+  - Kecepatan angin (m/s)
+  - Kelembapan (%)
+- Desain UI:
+  - Tampilan utama berbentuk **card** gelap dengan sudut membulat
+  - Ilustrasi awan + petir di tengah
+  - Panel daftar cuaca harian di sisi kanan (dummy statis, siap dikembangkan)
+  - Timeline suhu per jam di bagian bawah (dummy statis, siap dihubungkan ke API forecast)
+- Sudah menggunakan **OpenWeather API** dengan satu endpoint cuaca saat ini
 
-A few resources to get you started if this is your first Flutter project:
+## 🧰 Teknologi
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter](https://flutter.dev/) (Dart)
+- [OpenWeather API](https://openweathermap.org/)
+- HTTP client: [`http` package](https://pub.dev/packages/http)
